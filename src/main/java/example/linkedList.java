@@ -69,7 +69,7 @@ public class linkedList {
 		
 		linkedList list=new linkedList();
 		
-        list.insertAtBeginning(12);
+                list.insertAtBeginning(12);
 		list.insertAtBeginning(17);
 		list.insertAtBeginning(10);
 		list.insertAtBeginning(33);
