@@ -32,25 +32,7 @@ public class linkedList {
 			 
 	}
 	
-	//Inserts a node at end
-	public  void insertAtEnd(int value)
-	{
-		Node newNode=new Node(value);
-		if (head == null) 
-		{
-            head = new Node(value);
-            return;
-        }
-        newNode.next = null;
-		Node currentnode = head;
-        while (currentnode.next != null)
-		{
-		   currentnode= currentnode.next;
-		}
-		currentnode.next = newNode;
-        return;
-	
-	}
+
 	 //deletion
 	public void deleteAtPos(int pos)
 	{
@@ -94,7 +76,6 @@ public class linkedList {
 		list.insertAtBeginning(5);
 		list.insertAtBeginning(2);
 		list.deleteAtPos(2);
-		list.insertAtEnd(1);
 		list.deleteAtPos(2);
 		list.display();
 	}
